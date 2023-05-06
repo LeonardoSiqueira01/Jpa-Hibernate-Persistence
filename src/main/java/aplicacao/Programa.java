@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 import dominio.Pessoa;
 
 public class Programa {
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa-teste");
 		EntityManager em = emf.createEntityManager();
